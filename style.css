@@ -76,6 +76,60 @@ input[type="number"] {
 .interests {
   margin: 10px 0;
 }
+.custom-footer {
+  width: 100%;
+  background: #fff;
+  color: #222;
+  padding: 48px 24px 32px 24px;
+  border-top: 1px solid #eee;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+}
+
+.footer-left {
+  font-size: 2em;
+  font-weight: bold;
+  line-height: 1.4;
+  min-width: 350px;
+}
+
+.footer-right {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: right;
+  min-width: 300px;
+}
+
+.footer-middle {
+  color: #888;
+  font-size: 1em;
+  margin: 24px 0 32px 0;
+  line-height: 1.5;
+}
+
+.footer-bottom {
+  font-size: 1.5em;
+  color: #222;
+  line-height: 1.5;
+}
+
+@media (max-width: 800px) {
+  .footer-top {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .footer-right {
+    text-align: left;
+    margin-top: 12px;
+  }
+}
 button {
   background: #4CAF50;
   color: white;
