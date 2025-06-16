@@ -82,7 +82,7 @@ input[type="number"] {
 .googleform-btn {
   display: inline-block;
   padding: 14px 36px;
-  background: linear-gradient(90deg, #c9c9c9 20%, #000000 80%);
+  background: #000000;
   color: #fff;
   font-size: 20px;
   font-weight: bold;
@@ -94,7 +94,7 @@ input[type="number"] {
   cursor: pointer;
 }
 .googleform-btn:hover {
-  background: linear-gradient(90deg, #ffffff 0%, #ffffff 100%);
+  background: #ffffff;
   color: #000; 
   transform: translateY(-2px) scale(1.03);
 }
