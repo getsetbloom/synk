@@ -73,6 +73,9 @@ input[type="number"] {
   margin-bottom: 10px;
   text-align: left;
 }
+.desc {
+  margin-bottom: 24px;
+}
 .interests {
   margin: 10px 0;
 }
